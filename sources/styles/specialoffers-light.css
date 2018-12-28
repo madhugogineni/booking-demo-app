@@ -1,0 +1,106 @@
+.special-offers .webix_ss_header {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    border-bottom: 2px solid #efefef;
+    height: 130px !important;
+}
+
+.special-offers .webix_first.webix_last_row,
+.webix_first.webix_first_row {
+    height: 65px !important;
+}
+
+.special-offers .webix_hs_center {
+    height: 130px !important;
+}
+
+.special-offers .webix_last_row {
+    border-color: transparent !important;
+}
+
+.special-offers .webix_hcell {
+    height: 65px !important;
+    border-bottom: 1px solid #dedede;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    color: #575757;
+    font-size: 13px;
+    font-weight: 600 !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.special-offers .webix_first .webix_hcell {
+    display: block !important;
+    padding-top: 15px;
+}
+
+.special-offers .webix_hcell.webix_ss_filter {
+    border-bottom: none !important;
+}
+
+.special-offers .webix_hcell input {
+    width: 80%;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #E2E2E2;
+    height: 35px;
+    background-color: transparent !important;
+    border-radius: 20px !important;
+    padding-left: 20px;
+}
+
+.special-offers .align-center .webix_cell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.special-offers .webix_hcell .align-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.special-offers .webix_cell {
+    height: 65px !important;
+    color: #4c4c4c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600 !important;
+    border-width: 0px;
+    border-bottom: 1px solid #dedede;
+}
+
+.special-offers .webix_first.webix_last_row .webix_hcell {
+    border-bottom-color: transparent !important;
+}
+
+.special-offers>.webix_cell.webix_row_select {
+    border-bottom: 1px solid #E2E2E2 !important;
+    border-width: 0px;
+}
+
+.price-column,
+.date-column>.webix_cell {
+    color: #A9A9A9;
+    font-weight: 500;
+}
+
+.top-padding-3 {
+    padding-top: 3px !important;
+}
+
+.webix_dtable {
+    /* height: 783px !important; */
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: 1px solid #dedede;
+}

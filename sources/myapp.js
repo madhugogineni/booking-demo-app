@@ -1,4 +1,4 @@
-import "./styles/app.css";
+// import "./styles/app.css";
 import { JetApp, HashRouter, plugins } from "webix-jet";
 
 export default class MyApp extends JetApp{

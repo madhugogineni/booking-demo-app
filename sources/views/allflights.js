@@ -1,37 +1,37 @@
-import {JetView, plugins} from "webix-jet";
-
+import { JetView, plugins } from "webix-jet";
+// import "../styles/allflights.css";
 export default class AllFlightsView extends JetView {
-	config(){
-		const _ = this.app.getService("locale")._;
-		const theme = this.app.config.theme;
+    config() {
+        const _ = this.app.getService("locale")._;
+        const theme = this.app.config.theme;
 
-		return {
-			gravity:3,
-			rows:[
-				{
-					view:"toolbar",
-					localId:"toolbar",
-					css:theme,
-					cols:[
-						{ view:"label", template:_("Flights") },
-						{},
-						{
-							view:"segmented", localId:"offers",
-							width:300,
-							options:[
-								{ id:"specialoffers", value:_("Offers") },
-								{ id:"regularoffers", value:_("Regular") },
-								{ id:"flightinfo", value:_("Info") }
-							]
-						},
-						{ width:6 }
-					]
-				},
-				{ $subview:true }
-			]
-		};
-	}
-	init(){
-		this.use(plugins.Menu,"offers");
-	}
+        return {
+            rows: [{
+                view: "toolbar",
+                localId: "toolbar",
+                css: theme + " flights-toolbar",
+                cols: [{
+                        view: "label",
+                        template: _("Flights<i class='fas fa-plane-departure left-padding'></i>"),
+                        fillspace: true,
+                        css: "toolbar-label"
+                    },
+                    {
+                        view: "segmented",
+                        localId: "offers",
+                        width: 300,
+                        options: [
+                            { id: "specialoffers", value: _("OFFERS") },
+                            { id: "regularoffers", value: _("REGULAR") },
+                            { id: "flightinfo", value: _("INFO") }
+                        ]
+                    },
+                    { width: 6 }
+                ]
+            }, { $subview: true }],
+        };
+    }
+    init() {
+        this.use(plugins.Menu, "offers");
+    }
 }

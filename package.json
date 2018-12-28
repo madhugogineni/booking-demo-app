@@ -35,5 +35,6 @@
   },
   "dependencies": {
     "webix-jet": "^1.6.2"
-  }
+  },
+  "proxy" : "http:/3.16.182.173:3000/"
 }

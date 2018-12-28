@@ -1,5 +1,4 @@
 [
-	{"id":1,"direction":"Tallin EE - Berlin Tegel DE",							"date":"2018-10-01","price":"450","save":"45","places":21,"status":"Open","no":"EST679","deptime":"09:12","arrtime":"12:26","comments":0},
 	{"id":2,"direction":"Moscow Vnukovo RU - Kiev Borispol UA",					"date":"2018-10-01","price":"160","save":"65","places":5,"status":"Available soon","no":"RUS677","deptime":"06:08","arrtime":"09:22","comments":0},
 	{"id":3,"direction":"Riga International LV - Warsaw Modlin",				"date":"2018-10-01","price":"220","save":"110","places":2,"status":"Last deals","no":"LTV133","deptime":"03:15","arrtime":"06:29","comments":0},
 	{"id":4,"direction":"Vilnius LT - Kiev Zhulhany UA",						"date":"2018-10-01","price":"140","save":"40","places":35,"status":"Last deals","no":"LET598","deptime":"19:47","arrtime":"22:02","comments":0},

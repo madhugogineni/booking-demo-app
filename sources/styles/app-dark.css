@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'SFPro';
+    src: url('/data/SFPro.ttf');
+    /* IE9 Compat Modes */
+}
+
+* {
+    font-family: SFPro;
+    font-size: 13px;
+}
+
+.webix_item_tab, .webix_el_label, button, input, .webix_hcell,.webix_inp_static {
+    font-family: SFPro !important;
+}
+
+input {
+    font-size: 14px !important;
+}
+
+.margin-5 {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+/* statuses */
+
+.status {
+    font-weight: 550;
+    font-size: 13px !important;
+}
+
+.open {
+    color: #41ad7c;
+}
+
+.ontime {
+    color: #1CA1C1;
+}
+
+.last {
+    color: #FF5C4C;
+}
+
+.soon, .landed {
+    color: rgb(243, 166, 1);
+}
+
+/* notifications list */
+
+.notifications .webix_list_item {
+    line-height: 20px;
+    padding: 10px;
+}
+
+.notifications .webix_list_item .m_title {
+    font-weight: 500;
+    color: #313131;
+}
+
+.notifications .webix_list_item .message {
+    display: block;
+    color: #475466;
+}
+
+.blue-badge .webix_badge {
+    background-color: #467fff !important;
+    color: white !important;
+}
+
+.leftnavbar .webix_accordionitem {
+    border-radius: 20px !important;
+    margin-top: 10px !important;
+}
+
+.leftnavbar .webix_view.webix_accordionitem.collapsed {
+    height: 50px !important;
+}
+
+.leftnavbar .webix_view.webix_accordionitem.collapsed .webix_accordionitem_header {
+    padding-top: 5px;
+}
+
+.leftnavbar .webix_view.webix_accordionitem .webix_accordionitem_header {
+    padding-top: 7.5px;
+    height: 62px !important;
+    font-size: 14px !important;
+}
+
+.leftnavbar .webix_accordionitem_header .webix_accordionitem_label, .webix_accordionitem_button {
+    color: #467fff !important;
+}
+
+.leftnavbar .webix_accordionitem_header.collapsed .webix_accordionitem_button {
+    color: #434752 !important;
+}
+
+.leftnavbar .webix_accordionitem_header.collapsed .webix_accordionitem_label {
+    color: white !important;
+}
+
+.leftnavbar .webix_accordionitem_body {
+    border-top: 1px solid #434752;
+}
+
+.leftnavbar .webix_inp_counter_value {
+    height: 35px !important;
+}
+
+.leftnavbar .webix_inp_counter_prev, .webix_inp_counter_next {
+    height: 30px !important;
+    margin-top: 2.5px !important;
+}
+
+.leftnavbar .webix_view.webix_control.webix_el_counter.adult-counter {
+    height: 45px !important;
+}
+
+.leftnavbar .webix_view.webix_control.webix_el_counter.adult-counter .webix_el_box, .webix_el_group {
+    height: 45px !important;
+}
+
+.search-button .webixtype_form {
+    width: 250px;
+    border-radius: 50px;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 15px;
+    font-size: 13px !important;
+}
+
+.webix_inp_counter_prev {
+    border-radius: 5px !important;
+    border-color: transparent !important;
+    margin-right: 10px;
+}
+
+.webix_inp_counter_prev:focus {
+    background-color: #467fff !important;
+}
+
+.webix_inp_counter_value {
+    border-radius: 5px !important;
+    border: 2px solid #467fff !important;
+    margin-right: 10px;
+}
+
+.webix_inp_counter_next {
+    border-radius: 5px !important;
+    border-color: transparent !important;
+}
+
+.webix_inp_counter_next:focus {
+    background-color: #467fff !important;
+}
+
+.flight-searching input {
+    border-radius: 25px;
+    border: 2px solid #434752;
+}
+
+.flight-searching .webix_inp_static {
+    border-radius: 20px;
+    padding-right: 5px !important;
+    border-color: transparent !important;
+}
+
+.align-middle .webix_template {
+    display: flex;
+    align-items: center;
+}
+
+.align-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flight-searching .webix_view.webix_layout_line {
+    margin-left: 5px !important;
+}
+
+.smaller-font .webix_label_right {
+    font-size: 14px !important;
+}
+
+.bigger-font {
+    font-size: 18px !important;
+}
+
+.header {
+    padding-top: 10px !important;
+}
+
+.header .custom-tabbar .webix_item_tab {
+    color: white;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    color: #A9A9A9;
+}
+
+.header .custom-tabbar .webix_item_tab .dashboard {
+    display: none;
+    font-size: 10px;
+}
+
+.header .custom-tabbar .webix_item_tab .flights {
+    display: none;
+    font-size: 10px;
+}
+
+.header .custom-tabbar .webix_item_tab .hotels {
+    display: none;
+    font-size: 10px;
+}
+
+.header .custom-tabbar .webix_item_tab .cars {
+    display: none;
+    font-size: 10px;
+}
+
+.header .custom-tabbar .webix_item_tab.webix_selected {
+    padding-top: 12px !important;
+    box-shadow: none !important;
+    color: #467fff;
+}
+
+.header .custom-tabbar .webix_item_tab.webix_selected .dashboard {
+    display: block;
+}
+
+.header .custom-tabbar .webix_item_tab.webix_selected .flights {
+    display: block;
+}
+
+.header .custom-tabbar .webix_item_tab.webix_selected .hotels {
+    display: block;
+}
+
+.header .custom-tabbar .webix_item_tab.webix_selected .cars {
+    display: block;
+}
+
+.left-padding {
+    margin-left: 15px !important;
+}

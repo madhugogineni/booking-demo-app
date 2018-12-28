@@ -1,0 +1,36 @@
+.flights-toolbar {
+    padding-top: 12.5px;
+    padding-bottom: 10px;
+    height: 40px !important;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 10px !important;
+    background-color: #383B44 !important;
+}
+
+.flights-toolbar .toolbar-label {
+    padding-left: 35px;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    border-bottom: 1px solid;
+}
+
+.flights-toolbar .webix_el_segmented button {
+    border-radius: 15px;
+    margin-left: 5px;
+    width: 90px !important;
+    background: transparent;
+    color: white;
+    font-size: 12px;
+}
+.flights-toolbar .webix_selected {
+    border: 1px solid #467fff;
+    color: #467fff !important;
+    background: transparent !important;
+}
+
+.right-padding {
+    padding-right: 15px;
+}
+
+/*background: transparent !important; */
