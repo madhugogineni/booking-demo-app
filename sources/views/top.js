@@ -96,12 +96,12 @@ export default class TopView extends JetView {
         fetch("http://riktam.tigersheet.com/views/get-view-data?view_id=11&list_id=75441650", {
             method: 'GET',
             //     mode: "no-cors",
-            //     headers: new Headers({
-            //         "cookie": "_tigerlists=odh0lar67ip3265jr5e3r538f3",
-            //         'Content-Type': 'application/json',
-            //         "Access-Control-Request-Headers": "*",
-            //         "Access-Control-Request-Method": "*"
-            //     }),
+            headers: new Headers({
+                "cookie": "_tigerlists=odh0lar67ip3265jr5e3r538f3",
+                'Content-Type': 'application/json',
+                "Access-Control-Request-Headers": "*",
+                // "Access-Control-Request-Method": "*"
+            }),
         }).then(function(dataResponse) {
             console.log(dataResponse);
             // return dataResponse.json();
